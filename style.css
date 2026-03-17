@@ -1,3 +1,7 @@
+:root{
+    --var-flex-wrap: wrap;
+}
+
 .page {
     display: flex;
 }
@@ -26,4 +30,20 @@ body {
     background: white;
     border: 1px solid var(--color-stroke);
     
+}
+
+.container{
+    display: flex; 
+    gap: 2rem;
+    writing-mode: vertical-rl;
+    flex-direction: column;
+}
+
+.behållare{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: var(--var-flex-wrap);
+    border: 1px solid var(--color-primary);
+    background: var(--color-primary-x-light);
+    max-width: 400px;
 }
