@@ -35,7 +35,10 @@ body {
 .container{
     display: flex; 
     gap: 2rem;
-    writing-mode: vertical-rl;
+    max-width: 25rem;
+    height: 20rem; 
+    border: 1px solid var(--color-primary);
+    writing-mode:vertical-rl; 
     flex-direction: column;
 }
 
@@ -46,4 +49,5 @@ body {
     border: 1px solid var(--color-primary);
     background: var(--color-primary-x-light);
     max-width: 400px;
+    justify-content: center;
 }
