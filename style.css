@@ -11,7 +11,7 @@
 }
 
 .sidebar {
-    background: var(--color-primary-x-light);
+    background: palevioletred;
     outline: 1px solid var(--color-primary);
     width: 14rem;
 }
@@ -22,12 +22,12 @@ body {
     min-height: unset;
     padding: 2rem;
     border: 1px solid var(--color-stroke);
-    background: var(--color-off-white);
+    background: white;
     margin: 1rem auto;
 }
 
 .page {
-    background: white;
+    background: pink;
     border: 1px solid var(--color-stroke);
     
 }
@@ -37,17 +37,24 @@ body {
     gap: 2rem;
     max-width: 25rem;
     height: 20rem; 
+    background: peachpuff;
     border: 1px solid var(--color-primary);
-    writing-mode:vertical-rl; 
     flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+    
 }
 
 .behållare{
     display: flex;
     gap: 1rem;
+    min-height: 15rem;
     flex-wrap: var(--var-flex-wrap);
     border: 1px solid var(--color-primary);
-    background: var(--color-primary-x-light);
-    max-width: 400px;
-    justify-content: center;
+    background: lightyellow;
+    max-width: 40rem;
+    justify-content: space-evenly;
+    align-content: stretch;
+
 }
