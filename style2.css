@@ -1,0 +1,28 @@
+body {
+    font-family:sans-serif;
+    margin: 0;
+}
+header {
+    background: pink;
+    height: 100px;
+}
+h1 {
+    text-align: center;
+    color: wh;
+    line-height: 100px;
+    margin: 0;
+}
+article {
+    padding: 10px;
+    margin: 10px ;
+    background: rgb(255, 197, 206);
+}
+h2 {
+    font-family: cursive;
+    color: palevioletred;
+    
+}
+section{
+    flex-wrap: wrap;
+    flex-direction: column;
+}
